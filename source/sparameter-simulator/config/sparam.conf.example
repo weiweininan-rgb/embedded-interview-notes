@@ -1,0 +1,8 @@
+source=csv
+input_path=data/samples_256.csv
+output_path=results/output.csv
+device_path=/dev/sparam_sim
+port=9000
+queue_length=4
+algorithm=correlation
+log_level=info

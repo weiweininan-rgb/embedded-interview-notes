@@ -13,3 +13,7 @@ out/
 *.bin
 *.hex
 *.zip
+
+# S 参数测试与运行时生成物
+source/sparameter-simulator/data/samples_*.csv
+source/sparameter-simulator/results/

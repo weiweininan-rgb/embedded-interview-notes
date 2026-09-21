@@ -1,0 +1,9 @@
+/*
+ * 将此节点加入 IMX6ULL 板级根节点。它绑定教学用虚拟 IQ 数据源，
+ * 且刻意不描述 MMIO、IRQ 或 DMA 资源。
+ */
+sparam_sim: sparam-sim {
+    compatible = "edu,sparam-sim";
+    sample-rate-ms = <100>;
+    status = "okay";
+};
